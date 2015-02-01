@@ -1,0 +1,42 @@
+{
+	"name": "whoami-frontend",
+    "description": "A service for supporting semantic member description of interests and expertises. Backend package.",
+	"version": "0.0.5",
+	"private": true,
+	"scripts": {
+		"start": "node ./scripts/web-server.js 8081",
+		"test": "node_modules/protractor/bin/protractor tests/e2e-config.js",
+		"test-a": "node_modules/mocha/bin/mocha tests/unit-tests.js"
+	},
+	"dependencies": {
+		"requirejs": "*",
+		"mocha": "*",
+		"chai": "*",
+		"chai-as-promised": "*",
+		"karma": "*",
+		"karma-requirejs": "*",
+		"karma-mocha": "*",
+		"karma-chai": "*",
+		"karma-sinon": "*",
+		"karma-chai-plugins": "*",
+		"karma-ng-html2js-preprocessor": "*",
+		"protractor": "*"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.5",
+		"grunt-contrib-concat": "~0.5.0",
+		"grunt-contrib-jshint": "~0.10.0",
+		"grunt-contrib-nodeunit": "~0.4.1",
+		"grunt-contrib-uglify": "~0.5.0",
+		"grunt-contrib-watch": "~0.5.0",
+		"grunt-contrib-sass": "~0.5.0",
+		"grunt-contrib-compass": "~0.5.0",
+		"grunt-protractor-runner": "~1.2.1",
+
+		"karma-chrome-launcher": "^0.1.7",
+		"karma-firefox-launcher": "^0.1.3",
+		"karma-mocha": "^0.1.10",
+		"karma-safari-launcher": "^0.1.1",
+		"karma-coverage": "*"
+	}
+}

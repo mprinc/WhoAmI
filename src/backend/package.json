@@ -1,0 +1,25 @@
+{
+    "name": "whoami-backend",
+    "description": "A service for supporting semantic member description of interests and expertises. Backend package.",
+    "version": "0.0.5",
+    "private": true,
+    "scripts": {
+    	"start": "node WhoAmI"
+    },
+    "dependencies": {
+        "express": "3.x",
+        "express-resource": "1.x",
+		"bluebird": "latest",
+        "async": "x",
+        "sequelize": "x",
+        "mysql": "2.x",
+
+        "passport":"latest",
+		"passport-local" : "latest",
+		"passport-facebook" : "latest",
+		"passport-twitter" : "latest",
+		"passport-google-oauth" : "latest",
+
+		"connect-flash" : "latest"
+    }
+}
