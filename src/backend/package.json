@@ -4,7 +4,7 @@
     "version": "0.0.5",
     "private": true,
     "scripts": {
-    	"start": "node WhoAmI"
+    	"start": "node test"
     },
     "dependencies": {
         "express": "3.x",
