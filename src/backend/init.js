@@ -45,7 +45,10 @@ function inputDB(){
 	console.log('inputing');
 	var test = new SLaWS({form: 'руке', lemma: 'рука', ana: 'Nasjdjf'});
 	var test2 = new SLaWS({form: 'руке', lemma: 'рука', ana: 'Nnpkdjf'});
+	var test3 = new SLaWS({form: 'Јапанкама', lemma: 'Јапанка', ana: 'Npfpl--y'});
+	
 	test.save();
 	test2.save();
+	test3.save();
 	showDB('all SLaWS after');
 }
